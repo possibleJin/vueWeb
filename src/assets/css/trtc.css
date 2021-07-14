@@ -1,0 +1,63 @@
+/* .trtc {
+    display: flex;
+} */
+.z_box {
+    width: 1100px;
+    height: 500px;
+    /* border: 1px solid ; */
+    display: flex;
+}
+.l_box {
+    width: 700px;
+    border: 1px solid;
+}
+.r_box {
+    flex: 1;
+    border: 1px solid ;
+} 
+.con {
+    height: 10%;
+}
+#share {
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    margin: 0 0 0 5%;
+}
+.con button {
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.r_box .top {
+    height: 40%;
+    background-color: green;
+}
+.bottom {
+    position: relative;
+}
+.r_box .bottom {
+    /* overflow-y: scroll; */
+    height: 60%;
+}
+.r_box .scroll {
+    overflow-y: scroll;
+    height: 78%;
+    width: 100%;
+}
+.bottom .title {
+    background: orange;
+    padding: 12px 0;
+}
+
+
+.btn-con button{
+    margin-right: 10px;
+}
+
+.remoteVideo {
+    width: 700px;
+    height: 100px;
+    border: 1px solid;
+    display: flex;
+    margin-bottom: 50px;
+}
