@@ -47,10 +47,7 @@ Vue.prototype.$TCPlayer = TCPlayer
 const livePusher = new TXLivePusher();
 Vue.prototype.$livePusher = livePusher
 
-// import {genTestUserSig} from '../public/debug/GenerateTestUserSig'
-// window.genTestUserSig = genTestUserSig
 
-// Vue.prototype.genTestUserSig = window.genTestUserSig
 
 
 
